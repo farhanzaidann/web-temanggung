@@ -1,4 +1,3 @@
-@import "compass/css3";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Quicksand:wght@400;500;600&display=swap');
 
 * {
@@ -23,12 +22,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
-    background-color: #EFEAD8;
-    color: black;
+    background-color: #1d2934;
+    color: white;
 }
 
 nav {
-    background-color: #5F7161;
+    background-color: #0d1721;
     padding: 5px;
     position: sticky;
     top: 0;
@@ -53,15 +52,15 @@ nav li {
 
 .jumbotron {
     padding: 60px;
-    background-color: #6D8B74;
+    background-color: #15202b;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
 h2, h3 {
-    color: black;
+    color: white;
 }
 
 img.tengah {
@@ -101,7 +100,7 @@ footer {
     line-height: 2;
     padding: 5px;
     color: white;
-    background-color: #5F7161;
+    background-color: #0d1721;
     text-align: center;
     font-weight: bold;
 }
@@ -132,20 +131,24 @@ footer {
   }
 
   .input {
-    background-color: #303245;
+    background-color: #15202b;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
     color: #eee;
-    font-size: 18px;
+    font-size: 15px;
     height: 100%;
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
   }
 
+  .input-long {
+    height: 200px;
+  }
+
   .cut {
-    background-color: #EFEAD8;
+    background-color: #1d2934;
     border-radius: 10px;
     height: 20px;
     left: 20px;
@@ -166,7 +169,7 @@ footer {
 }
 
 .placeholder {
-    color: #65657b;
+    color: #eee;
     font-family: sans-serif;
     left: 20px;
     line-height: 14px;
@@ -191,7 +194,7 @@ footer {
 }
 
  .submit {
-    background-color: #5F7161;
+    background-color: #0d1721;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;

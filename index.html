@@ -20,6 +20,7 @@
               <li><a href="#wisata">Wisata</a></li>
               <li><a href="#informasi">Informasi Lainnya</a></li>
               <li> <a href="#profil">Profil Saya</a></li>
+              <li> <a href="#contact">Kontak Saya</a></li>
             </ul>
           </nav>
         </header>
@@ -109,6 +110,29 @@
                 </p>
               </section>
              </article>
+             <form id="contact" onsubmit="myFunction()" class="profile card">
+                <div class="Title">
+                   <center><h2> Contact Me! </h2></center>
+                </div>
+                <div class="input-container ic1">
+                    <input type="text" name="nama" id="nama" class="input" placeholder=" ">
+                    <div class="cut"></div>
+                    <label for="nama" class="placeholder">Name</label>
+                </div>
+                <div class="input-container ic2">
+                    <input type="text" name="email" id="email" class="input" placeholder=" ">
+                    <div class="cut"></div>
+                    <label for="email" class="placeholder">Email</label>
+                </div>
+                <div class="input-long">
+                <div class="input-container ic2">
+                    <textarea class="input" id="message" name="message" placeholder=" " style="height:200px"></textarea> 
+                    <div class="cut cut-short"></div>
+                    <label for="message" class="placeholder">Message</label>
+                </div>
+                </div>
+                <button type="submit" class="submit">Submit</button>
+            </form>
             </div>
             
         <aside>
@@ -187,28 +211,6 @@
                 </table>
                 </section>
             </article>
-
-            <form onsubmit="myFunction()" class="profile card">
-                <div class="Title">
-                   <center><h2> Contact Me! </h2></center>
-                </div>
-                <div class="input-container ic1">
-                    <input type="text" name="nama" id="nama" class="input" placeholder=" ">
-                    <div class="cut"></div>
-                    <label for="nama" class="placeholder">Name</label>
-                </div>
-                <div class="input-container ic2">
-                    <input type="text" name="email" id="email" class="input" placeholder=" ">
-                    <div class="cut"></div>
-                    <label for="email" class="placeholder">Email</label>
-                </div>
-                <div class="input-container ic2">
-                    <input type="text" name="message" id="message" class="input" placeholder=" ">
-                    <div class="cut cut-short"></div>
-                    <label for="message" class="placeholder">Message</label>
-                </div>
-                <button type="submit" class="submit">Submit</button>
-            </form>
         </aside>
 
     </main>
